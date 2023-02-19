@@ -5,9 +5,9 @@
 
 # atualizando sistema e instalando pacotes
 apt update
-apt upgrade
-apt install apache2
-apt install unzip
+apt upgrade -y
+apt install apache2 -y
+apt install unzip -y
 
 # removendo pagina inicial do apache
 rm /var/www/html/index.html
