@@ -4,10 +4,10 @@
 # Apache instalado no Linux Ubuntu
 
 # atualizando sistema e instalando pacotes
-apt update
-apt upgrade -y
-apt install apache2 -y
-apt install unzip -y
+apt-get update
+apt-get upgrade -y
+apt-get install apache2 -y
+apt-get install unzip -y
 
 # removendo pagina inicial do apache
 rm /var/www/html/index.html
